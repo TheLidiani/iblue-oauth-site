@@ -70,6 +70,12 @@ footer {
   box-shadow: 0 0 0 1px var(--line);
 }
 
+nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
 nav a {
   color: var(--muted);
   font-size: 14px;
@@ -342,6 +348,16 @@ footer div {
   .actions,
   .button {
     width: 100%;
+  }
+
+  nav {
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    gap: 8px 14px;
+  }
+
+  nav a {
+    font-size: 12px;
   }
 
   .card,
