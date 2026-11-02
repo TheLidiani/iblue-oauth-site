@@ -1,0 +1,7 @@
+{
+  "name": "iblue-oauth-site",
+  "private": true,
+  "scripts": {
+    "check": "node scripts/check-site.mjs"
+  }
+}
